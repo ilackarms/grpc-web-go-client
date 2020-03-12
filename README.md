@@ -1,6 +1,6 @@
 # gRPC Web Go client
-[![GoDoc](https://godoc.org/github.com/ktr0731/grpc-web-go-client/grpcweb?status.svg)](https://godoc.org/github.com/ktr0731/grpc-web-go-client/grpcweb)
-[![CircleCI](https://circleci.com/gh/ktr0731/grpc-web-go-client.svg?style=svg)](https://circleci.com/gh/ktr0731/grpc-web-go-client)  
+[![GoDoc](https://godoc.org/github.com/ilackarms/grpc-web-go-client/grpcweb?status.svg)](https://godoc.org/github.com/ilackarms/grpc-web-go-client/grpcweb)
+[![CircleCI](https://circleci.com/gh/ilackarms/grpc-web-go-client.svg?style=svg)](https://circleci.com/gh/ilackarms/grpc-web-go-client)  
 
 *THE IMPLEMENTATION IS LACKING*
 

@@ -1,4 +1,4 @@
-module github.com/ktr0731/grpc-web-go-client
+module github.com/ilackarms/grpc-web-go-client
 
 require (
 	github.com/golang/protobuf v1.2.0
@@ -15,3 +15,5 @@ require (
 	golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223 // indirect
 	google.golang.org/grpc v1.16.0
 )
+
+go 1.13
