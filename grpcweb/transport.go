@@ -77,6 +77,16 @@ func (t *HTTPTransport) Close() error {
 	return nil
 }
 
+func HTTPTransportBuilderWithClient(client *http.Client) func(host string, req *Request) Transport {
+	return func(host string, req *Request) Transport {
+		return &HTTPTransport{
+			host:   host,
+			req:    req,
+			client: client,
+		}
+	}
+}
+
 func HTTPTransportBuilder(host string, req *Request) Transport {
 	return &HTTPTransport{
 		host:   host,
